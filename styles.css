@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .bg-img {
     /* The image used */
     background-image: url("assets/St-background.jpeg");
@@ -15,7 +19,7 @@
 
 /* Position the navbar container inside the image */
 .container {
-    margin: 20px;
+    /* margin: 20px; */
     width: auto;
     display: flex;
     margin-left: 0px;
@@ -30,6 +34,7 @@
     height: 75px;
     background-color: #333;
 }
+
 
 /* Navbar links */
 .topnav a {
@@ -48,9 +53,38 @@
 
 /* logo link and styles*/
 .logo {
-    max-width: 10%;
-    float: left;
+    width: 10%;
+    position: absolute;
+    top: 2px;
+    left: 15px;
     border-radius: 50%;
+    z-index: 10;
+    ;
 }
 
-.img
+/* main page description and pictures container*/
+.desnpic {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 30px;
+}
+
+.desnpic>* {
+    width: 25%;
+}
+
+
+.janeway,
+.sato,
+.sevenof9 {
+    width: 100%;
+}
+
+.desnpic div {
+    width: 30%;
+
+}

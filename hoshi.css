@@ -1,0 +1,57 @@
+body {
+    background-color: #D8DCEE;
+    font-family: 'nunito sans', sans-serif;
+
+}
+
+/* The navbar */
+.topnav {
+    overflow: hidden;
+    width: 100vw;
+    height: 75px;
+    background-color: #333;
+}
+
+
+/* Navbar links */
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* logo link and styles*/
+.logo {
+    width: 8%;
+    position: absolute;
+    top: 2px;
+    left: 15px;
+    border-radius: 50%;
+    z-index: 10;
+    ;
+}
+
+.top-space {
+    height: 90px;
+
+}
+
+.hoshi {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.hoshiimage {
+    width: 420px;
+    padding: 10px;
+
+    float: left;
+}

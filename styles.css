@@ -1,20 +1,24 @@
+/* whole body  */
 body {
     margin: 0;
     padding: 0;
     height: auto !important;
     height: 100%;
+    background-color: #D8DCEE;
+    font-family: 'nunito sans', sans-serif;
 }
 
 .bg-img {
     /* The image used */
     background-image: url("assets/St-background.jpeg");
 
-    min-height: 380px;
+    min-height: 300px;
 
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 
     /* Needed to position the navbar */
     position: relative;
@@ -56,7 +60,7 @@ body {
 
 /* logo link and styles*/
 .logo {
-    width: 10%;
+    width: 8%;
     position: absolute;
     top: 2px;
     left: 15px;
@@ -80,15 +84,11 @@ body {
     width: 25%;
 }
 
-
 .janeway,
 .sato,
 .sevenof9 {
-    width: 100%;
-}
 
-.desnpic div {
-    width: 30%;
+    width: 420px;
 
 }
 
@@ -108,4 +108,32 @@ footer {
 #content-wrap {
     padding-bottom: 2.5rem;
     /* Footer height */
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
 }
